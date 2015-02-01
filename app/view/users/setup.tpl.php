@@ -1,0 +1,1 @@
+<p><b>Databastabellen user har skapats, se den genom att välja "Lista alla användare" i menyn</b></p>

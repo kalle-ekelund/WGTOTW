@@ -1,0 +1,107 @@
+/**
+ * General elements
+ */
+@font-face {
+    font-family: psfont;
+    src: url(psfont.otf);
+}
+
+@import url(figure.css);
+
+body {
+  color: #fff;
+  font-family: arial, sans-serif;
+  overflow-y: scroll;
+    background-color: #133F5A;
+    margin: 0px;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+    height: 35px;
+    width: 365px;
+    color: #ffffff;
+    background-color: #3396d4;
+    line-height: 35px;
+    padding: 5px;
+    float: left;
+}
+
+.sitelogo {
+    float: left;
+    margin: 0px 20px;
+}
+
+.sitetitle {
+    font-size: 30px;
+    font-family: psfont;
+    margin: 0px;
+    word-spacing: 10px;
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+    clear: both;
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 22px;
+}
+
+.sitefooter {
+  color: #666;
+}
+
+
+/**
+ * For articles
+ */
+.article1 {
+    width: 700px;
+    padding: 0em 1em;
+    margin: 0 auto;
+    background-color: #B1D7EE;
+    overflow: hidden;
+    color: #333;
+}
+
+.article1 h1,
+.article1 h2 {
+  border-bottom: 1px solid #ccc;
+}
+
+.byline {
+  margin-top: 44px;
+  border-top: 1px dashed #ccc;
+  padding-top: 22px;
+  color: #666;
+}
+
+.byline p {
+  margin-top: 0;
+}

@@ -1,0 +1,94 @@
+/**
+ * Style for forms
+ */
+
+fieldset {
+    border: none;
+}
+label {
+  font-size: smaller;
+}
+
+input[type=text],
+input[type=password],
+input[type=email]
+{
+  font-size: 1.2em;
+  width: 500px;
+}
+
+textarea {
+  font-size: 1.2em;
+  width: 500px;
+  min-height: 200px;
+}
+
+p.buttons {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+input[type=submit] {
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 5px 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 14px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+input[type=submit]:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ffffff;
+}
+input[type=submit]:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+}
+
+input[type=reset] {
+    border-top: 1px solid #ffac78;
+    background: #fca65b;
+    background: -webkit-gradient(linear, left top, left bottom, from(#edb657), to(#fca65b));
+    background: -webkit-linear-gradient(top, #edb657, #fca65b);
+    background: -moz-linear-gradient(top, #edb657, #fca65b);
+    background: -ms-linear-gradient(top, #edb657, #fca65b);
+    background: -o-linear-gradient(top, #edb657, #fca65b);
+    padding: 5px 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 14px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+input[type=reset]:hover {
+    border-top-color: #cfa819;
+    background: #cfa819;
+    color: #ffffff;
+}
+input[type=reset]:active {
+    border-top-color: #cfa819;
+    background: #cfa819;
+}

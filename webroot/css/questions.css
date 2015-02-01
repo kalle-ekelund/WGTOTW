@@ -1,0 +1,126 @@
+.questionContainer {
+    display: flex;
+    margin: 20px 30px;
+}
+
+.statsContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+}
+
+.statsContainer p {
+    margin: 0px;
+}
+.statsContainer a {
+    text-decoration: none;
+}
+.statsContainer a:link {
+    color: #133F5A;
+}
+
+.statsContainer a:visited {
+    color: #133F5A;
+}
+
+.statsContainer a:hover {
+    color: #3396d4;
+}
+
+.statsContainer a:active {
+    color: #133F5A;
+}
+
+.statNumber {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.summary {
+    margin-left: 20px;
+    margin-right: 20px;
+    flex: 1;
+}
+
+.summary h3 {
+    margin-top: 0px;
+}
+
+.profileContainer {
+    font-size: 10px;
+}
+
+.profileContainer p {
+    margin: 0px;
+}
+
+.profileContainer .profile {
+    display: flex;
+}
+
+.profileContainer .profile p{
+    margin: 0px;
+    margin-bottom: 4px;
+}
+
+.questionByline {
+    border: 1px solid grey;
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.tagContainer {
+    margin-bottom: 30px;
+}
+
+.tagContainer span {
+    background-color: aliceblue;
+    font-size: small;
+    padding: 5px;
+}
+
+.commentContainer {
+    display: flex;
+    margin: 20px 30px 0px 30px;
+}
+
+.questionText {
+    margin: 0px 20px;
+}
+
+.questionText p {
+    margin-top: 0px;
+}
+
+.statNumberComment {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.recentQuestions {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.recentQuestions p {
+    margin: 0px;
+}
+
+.recentQuestions .statsContainer {
+    text-align: center;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.recentQuestions .titleContainer {
+    width: 300px;
+}
+
+.recentQuestions .titleContainer .created {
+    font-size: small;
+    text-align: right;
+}

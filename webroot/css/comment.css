@@ -1,0 +1,53 @@
+.comments {
+
+}
+
+.comments .comment-name {
+    color: #92cae4;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+
+.comments .comment {
+
+}
+
+.comments .comment-date {
+    border-bottom: dotted 1px darkgrey;
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+.comments input[type=submit],
+input[type=reset] {
+    height: 20px;
+    background-color: orangered;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.comment-form fieldset{
+    border: none;
+}
+
+.comment-form textarea {
+    height: 100px;
+    width: 90%;
+}
+
+.comment-form input[type=submit],
+input[type=reset] {
+    height: 40px;
+    background-color: orangered;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}

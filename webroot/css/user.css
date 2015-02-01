@@ -1,0 +1,57 @@
+.user-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.user-list-profile {
+    display: flex;
+    align-items: center;
+    width: 230px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.user-list-profile a:visited {
+    color: #0000EE;
+}
+
+.profile-info {
+    margin-left: 5px;
+}
+
+.profile-info p {
+    margin: 0px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-profile-info {
+    margin-left: 20px;
+}
+
+.user-profile-info p {
+    margin: 0px;
+}
+
+.user-profile-links {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
+.user-profile-links div {
+    width: 175px;
+}
+
+.user-profile-links a:visited {
+    color: #0000EE;
+}
+
+.user-profile-links span {
+    background-color: #3396D4;
+    color: white;
+    padding: 5px;
+    margin-right: 10px;
+}

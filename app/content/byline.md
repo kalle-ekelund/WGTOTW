@@ -1,0 +1,1 @@
+Artikel skriven utav Kalle Ekelund, som just nu läser PHP MVC på Blekinges Tekniska Högskola.
